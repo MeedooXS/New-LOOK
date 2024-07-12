@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.masthead{
+    position: relative;
+    border-bottom: 1px solid #51555d;
+    animation: intro 0.3s both;
+    animation-delay: 0.15s;
+    z-index: 20;
+}
+.body{
+margin: 0;
+padding: 0;
+color: #eaeaea;
+font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+line-height: 1.5;
+}
